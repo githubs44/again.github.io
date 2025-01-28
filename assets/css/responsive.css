@@ -1,0 +1,39 @@
+@media (max-width:600px){
+    html,
+     body {
+         overflow-x: hidden;
+     }
+
+     p {
+         font-size: 2.3vw;
+     }
+
+     nav{
+         padding: 3vw 5vw;
+         background: linear-gradient(
+            45deg,
+            #882b1f,
+            #b67235,
+            #cbb97d,
+            #bf985e);
+              height: 13vw;
+         
+     }
+
+     nav .logo img {
+         width: 10vw;
+     }
+
+     .nav_links,
+     .links {
+         display: none;
+     }
+
+     .hamburger {
+         display: flex;
+     }
+    .block img{
+         width: 40vw;
+    }
+    /* ----------------------------------------------------------------- */
+ }
